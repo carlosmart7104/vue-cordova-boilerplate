@@ -44,9 +44,9 @@ $RECYCLE.BIN/
 *.lnk
 
 # cordova
-/platforms
-/plugins
-/www
+platforms
+plugins
+www
 
 # res
 resources/signing
