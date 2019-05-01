@@ -5,6 +5,4 @@
 </template>
 
 <style lang="stylus" scoped>
-h1
-	border: 1px solid red
 </style>
