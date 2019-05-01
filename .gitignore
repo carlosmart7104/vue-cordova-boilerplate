@@ -44,9 +44,5 @@ ehthumbs_vista.db
 $RECYCLE.BIN/
 *.lnk
 
-# Cordova platforms
-/platforms
-/plugins
-
 # res
 resources/signing
