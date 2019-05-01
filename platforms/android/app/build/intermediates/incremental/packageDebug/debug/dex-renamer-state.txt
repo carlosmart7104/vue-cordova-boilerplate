@@ -1,4 +1,0 @@
-#Wed May 01 16:00:19 CDT 2019
-base.0=/home/carma/Documentos/th/carmatch/carmatch/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
