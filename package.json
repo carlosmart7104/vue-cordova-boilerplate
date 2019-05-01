@@ -10,7 +10,7 @@
     "watch:android": "onchange \"src/**/*.vue\" \"src/**/*.js\" \"src/**/*.css\" -- npm run build:android"
   },
   "dependencies": {
-    "cordova-android": "^7.1.1",
+    "cordova-android": "7.1.1",
     "cordova-plugin-whitelist": "1.3.3",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
