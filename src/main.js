@@ -5,8 +5,13 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-new Vue({
+let app = new Vue({
   router,
   store,
   render: h => h(App)
-}).$mount('#app')
+})
+
+document.addEventListener('deviceready', function () {
+  console.log('onDeviceReady')
+  app.$mount('#app')
+});

@@ -1,18 +1,24 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Camera config="camera config"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Camera from '@/components/Camera.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    Camera
   }
 };
 </script>
+
+<style lang="stylus" scoped>
+.home
+  display: block
+  margin: 0
+  padding: 0
+</style>

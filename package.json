@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build:android": "PROD_MODE=cordova vue-cli-service build --dest www && cordova run android",
-    "watch:android": "onchange \"src/**/*.vue\" \"src/**/*.js\" \"src/**/*.css\" -- npm run build:android"
+    "watch:android": "onchange \"src/**/*.*\" -- npm run build:android"
   },
   "dependencies": {
     "com.virtuoworks.cordova-plugin-canvascamera": "1.1.8",

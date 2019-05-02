@@ -2,6 +2,11 @@
 node_modules
 dist
 
+# cordova
+platforms
+plugins
+www
+
 # local env files
 .env.local
 .env.*.local
@@ -42,11 +47,6 @@ ehthumbs_vista.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 *.lnk
-
-# cordova
-platforms
-plugins
-www
 
 # res
 resources/signing
